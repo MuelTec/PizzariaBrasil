@@ -110,12 +110,11 @@ header {
 }
 body {
     height: 100vh;
-    background-image: url(img/pizzaria\ brasil_page01.jpg);
+    background-image: url(img/background6.jpg);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 
 
 
