@@ -11,20 +11,22 @@
 header {
     background-color: #CB2026;
     /*box-shadow: 0px 3px 10px;*/
-    box-shadow: 0px 3px 10px;
-    color: rgb(0, 0, 0);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.836);
 }
 
 .nav-bar {
     display: flex;
     justify-content: space-between;
     padding: 1.5rem 6rem;
-    height:;
 }
 
 .logo {
     display: flex;
     align-items: center;
+}
+
+.logo img {
+    width: 64px;
 }
 
 .nav-list {
@@ -112,8 +114,9 @@ header {
 }
 body {
     height: 100vh;
-    background-image: url(img/pizza.JPG.jpg);
-    background-position: center top;
+    background-image: url(img/pizza-food-vegetables-1402151-wallhere.com.jpg);
+    width: ;
+    background-position: center ;
     background-repeat: no-repeat;
     background-size: cover;
 }
