@@ -120,6 +120,8 @@ body {
     background-size: cover;
 }
 
-
+.nav-item a:hover {
+    color: #F29422;
+}
 
 
