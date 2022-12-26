@@ -13,6 +13,7 @@ header {
 }
 
 body {
+    width: 100vh;
     background-color: #CB2026;
     color: white;
 }
@@ -144,6 +145,7 @@ footer {
 }
 .elementos p {
     text-align: center;
+    color: white;
 }
 
 .elementos img {
