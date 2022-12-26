@@ -90,7 +90,7 @@ h1 {
     display: none;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 730px) {
     .nav-bar {
         padding: 1.5rem 4rem;
     }
