@@ -67,7 +67,7 @@ h1 {
 
 .login-button button{
     border: none;
-    background-color: rgba(0, 128, 0, 0.151);
+    background-color: #F29422;
     padding: 10px 15px;
     border-radius: 5px;
 }
@@ -142,7 +142,7 @@ footer {
 .elementos {
     width: 100px;
     height: 120px;
-    border: 1px solid white;    /*atenção*/
+    border: 0px solid white;    /*atenção*/
     margin:  19px;
 }
 
