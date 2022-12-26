@@ -53,9 +53,9 @@ header {
 
 .login-button button {
     border: none;
-    background-color: rgba(0, 128, 0, 0.151);
+    background-color: #F29422;
     padding: 10px 15px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .login-button button a {
