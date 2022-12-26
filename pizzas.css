@@ -145,7 +145,7 @@ footer {
 .elementos {
     width: 100px;
     height: 120px;
-    border: 0px solid white;    /*atenção*/
+    border: 1px solid white;    /*atenção*/
     margin:  19px;
 }
 
