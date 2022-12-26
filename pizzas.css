@@ -16,6 +16,7 @@ header {
 body {
     background-color: #CB2026;
     color: white;
+    height: 100vh;
 }
 
 h1 {
