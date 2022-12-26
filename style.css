@@ -112,7 +112,6 @@ header {
         display: block;
     }
 }
-
 body {
     height: 100vh;
     background-image: url(img/pizza-food-vegetables-1402151-wallhere.com.jpg);
@@ -124,36 +123,5 @@ body {
 
 .nav-item a:hover {
     color: #F29422;
-}
-
-
-
-footer {
-    background-color: black;
-    color: #F29422;
-    text-align: center;
-    padding: 10px;
-}
-
-.container {
-    display: flex;
-    justify-content: space-between;
-}
-
-.elementos {
-    width: 100px;
-    height: 120px;
-    border: 0px solid white;    /*atenção*/
-    margin:  19px;
-}
-
-.elementos p {
-    text-align: center;
-    color: white;
-}
-
-.elementos img {
-    width: 90px;
-    border-radius: 5pc;
 }
 
