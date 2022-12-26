@@ -139,9 +139,10 @@ footer {
 .elementos {
     width: 100px;
     height: 120px;
-    border: 1px solid white;
+    border: px solid white;    /*atenção*/
     margin:  15px;
 }
+
 .elementos p {
     text-align: center;
     color: white;
@@ -149,4 +150,5 @@ footer {
 
 .elementos img {
     width: 100px;
+    border-radius: 5pc;
 }
