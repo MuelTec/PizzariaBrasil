@@ -141,3 +141,7 @@ footer {
     border: 1px solid black;
     margin:  15px;
 }
+
+.elementos img {
+    width: 150px;
+}
