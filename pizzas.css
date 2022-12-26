@@ -137,9 +137,9 @@ footer {
 }
 
 .elementos {
-    width: 150px;
-    height: 150px;
-    border: 1px solid black;
+    width: 100px;
+    height: 120px;
+    border: 1px solid white;
     margin:  15px;
 }
 .elementos p {
@@ -148,5 +148,5 @@ footer {
 }
 
 .elementos img {
-    width: 150px;
+    width: 100px;
 }
