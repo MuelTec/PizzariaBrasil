@@ -8,6 +8,11 @@
     font-family: 'Inter', sans-serif;
 }
 
+html {
+    width: 100vw;
+    height: 100vh;
+}
+
 header {
     background-color: #CB2026;
     /*box-shadow: 0px 3px 10px;*/
