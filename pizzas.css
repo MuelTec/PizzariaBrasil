@@ -154,7 +154,7 @@ footer {
 .elementos {
     width: 100px;
     height: 120px;
-    border: 1px solid white;    /*atenção*/
+    border: px solid white;    /*atenção*/
     margin:  19px;
 }
 
@@ -169,3 +169,12 @@ footer {
     border-radius: 5pc;
 }
 
+.sabores h2 {
+    margin-top: 10px;
+    color: #F29422;
+    font-size: 1em;
+}
+ 
+.sabores p {
+    font-size: .8em;
+}
