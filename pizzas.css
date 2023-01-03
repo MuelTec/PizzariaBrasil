@@ -169,12 +169,31 @@ footer {
     border-radius: 5pc;
 }
 
-h2 {
-    margin-top: 10px;
-    color: #F29422;
-    font-size: 1em;
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #F29422;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.548);
+   border-radius: 10px;
 }
- 
-.sabores p {
-    font-size: .8em;
+
+main h2 {
+    color: #CB2026;
+    font-size: 1.3em;
+    font-weight: normal;
+    text-indent: 8px;
+}
+
+main p {
+    color: ;
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 2em;
+
 }
