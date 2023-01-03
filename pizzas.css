@@ -4,6 +4,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family= Caveat & display família= Advertência:wght@400;600 & swap');
 
+/*@import url('https://fonts.googleapis.com/css2?family= Caveat & display família= Advertência:wght@400;600 & swap');*/
+
 * {
     padding: 0;
     margin: 0;
@@ -21,7 +23,7 @@ header {
 
 
 body {
-    font-family:'Inter', sans-serif;
+    font-family: 'Caveat', cursive,sans-serif;
     background-color: #CB2026;
     color: white;
 }
