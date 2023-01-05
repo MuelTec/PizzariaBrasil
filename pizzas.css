@@ -168,8 +168,8 @@ footer {
 }
 
 main {
-    min-width: 300px;
-    max-width: 600px;
+    /*min-width: 300px;
+    max-width: 600px;*/
     margin: auto;
     margin-bottom: 30px;
     padding: 20px;
@@ -187,7 +187,35 @@ main h2 {
 
 main p {
     text-align: justify;
-    text-indent: 20px;
+    
     font-weight: normal;
     line-height: 2em;
+}
+
+.child {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 24px;
+    max-width: 1366px;
+}
+
+.card {
+    flex: 300px;
+    background-color: #CB2026;
+    border-radius: 16px;
+}
+
+.card img {
+    width: 100%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.card .description {
+    padding: 16px 24px;
+}
+
+.card  h2 {
+    color: white;
 }
