@@ -4,7 +4,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family= Caveat & display família= Advertência:wght@400;600 & swap');
 
-/*@import url('https://fonts.googleapis.com/css2?family= Caveat & display família= Advertência:wght@400;600 & swap');*/
 
 * {
     padding: 0px;
@@ -24,7 +23,7 @@ html,body {
 }
 
 body {
-    font-family: 'Caveat', cursive,sans-serif;
+    font-family: 'Caveat',sans-serif;
     background-color: #CB2026;
     color: white;
 }
