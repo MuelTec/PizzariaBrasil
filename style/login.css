@@ -1,0 +1,82 @@
+:root {
+    --cor0: #CB3DF2;
+    --cor1: #9163F2;
+    --cor2: #7176D9;
+    --cor3: #5B9ED9;
+    --cor4: #5BCCD9;
+}
+
+body {
+    min-height: 96vh;
+    background-image: url(/img/pizza-food-vegetables-1402151-wallhere.com.jpg);
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div {
+    min-width: 350px;
+    background: rgba(255, 255, 255, 0.541);
+    border-radius: 10px;
+    box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.219);
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+h1 {
+    text-align: center;
+    font-weight: bolder;
+}
+
+input {
+    border-style: groove;
+    border-radius: 2px;
+    outline: none;
+    color: #444444;
+    border: 1px solid #0da2ff;
+
+    padding: 10px;
+    background: #d3def8;
+
+
+    display: flex;
+}
+
+form {
+    padding-left: 80px;
+}
+
+.button {
+    color: white;
+    background-image: linear-gradient( to right, var(--cor4),var(--cor0));
+    padding: 4px 80px;
+}
+
+.button:hover {
+    color: black;
+}
+
+.semsenha {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.507);
+}
+
+aside {
+    font-size: 0.7em;
+    text-align: center;
+    padding-top: 40px;
+}
+
+nav {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+img {
+    width: 35px;
+    margin: 3px;
+}

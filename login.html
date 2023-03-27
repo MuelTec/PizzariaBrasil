@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style/login.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Entrar</h1>
+        <form action="cadastro.php" method="post" autocomplete="on">
+            <p>
+                <input type="text" class="inputp" placeholder="" name="login" id="ilog"
+                minlength="5" maxlength="15" required>
+                <label class="placeholder" for="ilog">Usuário</label>
+
+                <input type="password" name="senha" id="isen"
+                minlength="5" maxlength="15" required>
+                <label for="isen">Senha</label>
+                
+            </p>
+            <a class="semsenha" href="#">Esqueceu a senha ?</a>
+            <input class="button" type="submit" value="Entrar">
+        </form>
+        <aside>
+            <p>Cadastre-se usando</p>
+        </aside>
+        <nav>
+            <a href="https://www.facebook.com/" target="_blank"><img class="face" src="img/facebook-25.png" alt="logo-facebook"></a>
+
+            <a href="https://twitter.com/" target="_blank"><img src="img/logo-25.png" alt=""></a>
+            
+            <a href="https://twitter.com/" target="_blank"><img src="img/google.png" alt=""></a><br>
+
+            <a href="index.html">Página Inicial </a>
+        </nav>
+    </div>
+</body>
+</html>
