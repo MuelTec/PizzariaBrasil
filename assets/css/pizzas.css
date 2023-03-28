@@ -4,30 +4,42 @@
 
 @import url('https://fonts.googleapis.com/css2?family= Caveat & display família= Advertência:wght@400;600 & swap');
 
-* {
-    padding: 0;
-    margin: 0;
-    font-family: 'Caveat',sans-serif;
-}
 
-html {
-    width: 100vw;
-    height: 100vh;
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
 
 header {
     background-color: #CB2026;
-    /*box-shadow: 0px 3px 10px;*/
+    color: white;
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.836);
+    min-width: 559px;
 }
 
-.nav-bar {
+html,body {
+    min-width: 100vh;
+}
+
+body {
+    font-family: 'Caveat',sans-serif;
+    background-color: #CB2026;
+    color: white;
+}
+
+h1 {
+    color: #F29422;
+}
+
+.nav-bar{
     display: flex;
     justify-content: space-between;
     padding: 1.5rem 6rem;
+    width: 100;
 }
 
-.logo {
+.logo{
     display: flex;
     align-items: center;
 }
@@ -41,7 +53,7 @@ header {
     align-items: center;
 }
 
-.navlist ,ul {
+.nav-list ul {
     display: flex;
     justify-content: center;
     list-style: none;
@@ -51,18 +63,22 @@ header {
     margin: 0 15px;
 }
 
+.nav-item a:hover {
+    color: #F29422;
+}
+
 .nav-link {
-    color: white;
     text-decoration: none;
+    color: white;
     font-size: 1.15rem;
     font-weight: 400;
 }
 
-.login-button button {
+.login-button button{
     border: none;
     background-color: #F29422;
     padding: 10px 15px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .login-button button a {
@@ -119,31 +135,80 @@ header {
         display: block;
     }
 }
-body {
-    height: 100vh;
-    background: url(/img/pizza-food-vegetables-1402151-wallhere.com.jpg);
-    background-position: center ;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
-.nav-item a:hover {
-    color: #F29422;
-}
-
-
-
-.noticias {
+.container {
     display: flex;
-    justify-content: center;
-
+    justify-content: space-around;
 }
 
-.conteudo {
-    background: white;
-    border: 1px solid black;
-    width: 120px;
+.elementos {
+    width: 100px;
     height: 120px;
-    margin: 10px;
+    /*border: 1px solid white;*/
+    margin:  19px;
+} 
+
+.elementos p {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.elementos img {
+    width: 90px;
+    border-radius: 5pc;
+}
+
+.child {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 24px;
+    max-width: 1366px;
+    background-color: #F29422;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.548);
+    border-radius: 16px;
+}
+
+.card {
+    flex: 300px;
+    background-color: #CB2026;
+    border-radius: 16px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 16px;
+    }
+}
+
+.card img {
+    width: 100%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.card .description {
+    padding: 16px 24px;
+}
+
+.card .title {
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.card  h2 {
+    color: white;
+}
+
+.description p {
+    color: #F29422;
+    font-size: .8em;
+}
+
+
+footer {
+    background-color: black;
+    color: #F29422;
+    text-align: center;
+    padding: 10px;
 }
