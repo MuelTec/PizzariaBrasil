@@ -14,7 +14,7 @@ body {
     background-size: cover;
 }
 
-div {
+.container {
     min-width: 350px;
     background: rgba(255, 255, 255, 0.541);
     border-radius: 10px;

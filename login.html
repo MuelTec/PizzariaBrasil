@@ -10,20 +10,24 @@
 <body>
     <div class="container">
         <h1>Entrar</h1>
-        <form action="cadastro.php" method="post" autocomplete="on">
-            <p>
-                <input type="text" class="inputp" placeholder="" name="login" id="ilog"
-                minlength="5" maxlength="15" required>
-                <label class="placeholder" for="ilog">Usuário</label>
+        <div class="log">
+            <form action="cadastro.php" method="post" autocomplete="on">
+                <p>
+                    <input type="text" class="inputp" placeholder="" name="login" id="ilog"
+                    minlength="5" maxlength="15" required>
+                    <label class="placeholder" for="ilog">Usuário</label>
+    
+                    <input type="password" name="senha" id="isen"
+                    minlength="5" maxlength="15" required>
+                    <label for="isen">Senha</label>
+                    
+                </p>
+                <a class="semsenha" href="#">Esqueceu a senha ?</a>
+                <input class="button" type="submit" value="Entrar">
+            </form>
+        </div>
 
-                <input type="password" name="senha" id="isen"
-                minlength="5" maxlength="15" required>
-                <label for="isen">Senha</label>
-                
-            </p>
-            <a class="semsenha" href="#">Esqueceu a senha ?</a>
-            <input class="button" type="submit" value="Entrar">
-        </form>
+
         <aside>
             <p>Cadastre-se usando</p>
         </aside>
