@@ -46,6 +46,10 @@ header {
     margin: 0 15px;
 }
 
+.nav-item a:hover {
+    color: #F29422;
+}
+
 .nav-link {
     color: white;
     text-decoration: none;
@@ -115,15 +119,9 @@ header {
     }
 }
 
-section {
+body {
     background-image: url(/img/logo-pq-100.jpg);
 }
-
-
-.nav-item a:hover {
-    color: #F29422;
-}
-
 
 
 .noticias {

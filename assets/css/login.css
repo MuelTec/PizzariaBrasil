@@ -13,9 +13,9 @@ body {
 
 .container {
     min-width: 350px;
-    background: rgba(255, 255, 255, 0.541);
+    background: rgba(155, 147, 147, 0.541);
     border-radius: 10px;
-    box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.219);
+    box-shadow: 3px 5px 4px rgb(37, 13, 13);
 
     position: absolute;
     top: 50%;
