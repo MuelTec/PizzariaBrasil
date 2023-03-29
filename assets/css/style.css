@@ -120,12 +120,10 @@ header {
 }
 
 body {
-    background-image: url(/img/pizza.JPG.jpg);
-}
-
-
-.teste {
-    width: 50%;
+    background-image: url(/img/logo-pq-100.jpg);
+    color: #F29422;
+    font-size: 30pt;
+    text-align: center;
 }
 
 /*.noticias {
