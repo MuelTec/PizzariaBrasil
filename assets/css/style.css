@@ -12,6 +12,10 @@
 
 body {
     background-image: url(/img/logo-pq-100.jpg);
+
+}
+
+section {
     color: #F29422;
     font-size: 30pt;
     text-align: center;
