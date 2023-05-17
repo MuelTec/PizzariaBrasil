@@ -7,9 +7,9 @@
 }
 
 body {
-    /*min-height: 96vh;
-    background: #7176D9;*/
-    background-image: url(/img/logo-pq.jpg);
+    min-height: 96vh;
+    background-color: #CB2026;
+
 }
 
 .container {
